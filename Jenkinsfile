@@ -69,8 +69,8 @@ pipeline {
                 timeout(time: 10, unit: 'MINUTES') {
                     waitForQualityGate abortPipeline: true
                 }
-            }
-        }*/
+            }*/
+        }
 
         stage('BUILD APP IMAGE'){
           steps{
